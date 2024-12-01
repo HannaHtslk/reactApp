@@ -11,10 +11,9 @@ const HomePage = () => {
       <Header>
         <Navigation />
       </Header>
-      <div className={s.wrapper}>
-        <h2 className={s.subhead}>Unlock the Wonders of</h2>
-        <h1 className={s.heading}>Ukraine</h1>
-      </div>
+      <h1 className={s.subhead}>
+        Unlock the Wonders of <span className={s.heading}>Ukraine</span>
+      </h1>
       <Button />
     </div>
   );
