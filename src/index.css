@@ -23,3 +23,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+:root {
+  --primary-text-color: #fff;
+  --font-family: 'Lato';
+}
