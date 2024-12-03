@@ -27,4 +27,5 @@ img {
 :root {
   --primary-text-color: #fff;
   --font-family: 'Lato';
+  --accent-color: rgb(189, 192, 173);
 }

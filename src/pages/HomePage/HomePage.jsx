@@ -4,6 +4,7 @@ import s from './HomePgae.module.css';
 import Navigation from '../../components/Navigation/Navigation';
 import Header from '../../components/Header/Header';
 import Button from '../../components/Button/Button';
+import Socials from '../../components/Socials/Socials';
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         Unlock the Wonders of <span className={s.heading}>Ukraine</span>
       </h1>
       <Button />
+      <Socials />
     </div>
   );
 };

@@ -9,4 +9,12 @@
   color: var(--primary-text-color);
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
+  padding: 16px 0px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.1);
+  color: var(--accent-color);
 }

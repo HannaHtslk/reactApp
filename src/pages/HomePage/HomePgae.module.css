@@ -6,11 +6,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 0px 32px;
 }
 
 .subhead {
   display: block;
-  margin: 128px auto 0px auto;
+  margin: 144px auto 0px auto;
   font-family: 'Jomolhari';
   color: var(--primary-text-color);
   font-size: 48px;
@@ -41,15 +42,15 @@
   color: var(--primary-text-color);
   transform: scaleY(-1);
   -webkit-mask-image: linear-gradient(
-    to top,
+    to bottom,
     rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.8) 10%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.7) 40%,
+    rgba(0, 0, 0, 0) 90%
   );
   mask-image: linear-gradient(
     to top,
     rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.8) 10%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.7) 40%,
+    rgba(0, 0, 0, 0) 90%
   );
 }

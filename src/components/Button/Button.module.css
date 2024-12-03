@@ -1,0 +1,24 @@
+.btn {
+  display: block;
+  position: relative;
+  margin: 70px auto 0px;
+  width: 175px;
+  height: auto;
+  padding: 16px 52px;
+  outline: none;
+  border: none;
+  color: var(--primary-text-color);
+  background-color: rgba(57, 64, 20, 1);
+  border-radius: 4px;
+  font-family: 'Jomolhari', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  z-index: 1000;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgba(237, 239, 231, 0.781);
+  color: rgba(57, 64, 20, 1);
+}

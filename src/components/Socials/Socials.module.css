@@ -1,0 +1,16 @@
+.icon {
+  fill: white;
+  transition: fill 0.3s ease;
+}
+
+.list {
+  list-style-type: none;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+}
+
+.item:hover .icon {
+  cursor: pointer;
+  fill: var(--accent-color);
+}
