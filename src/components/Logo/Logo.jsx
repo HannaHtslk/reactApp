@@ -5,10 +5,10 @@ const Logo = () => {
   return (
     <a className={s.link} href="/">
       <svg className={s.svg} width="64px" height="46px">
-        <use href="/public/sprite.svg#icon-ua"></use>
+        <use href="/sprite.svg#icon-ua"></use>
       </svg>
       <svg className={s.svg2} width="20px" height="15px">
-        <use href="/public/sprite.svg#icon-W"></use>
+        <use href="/sprite.svg#icon-W"></use>
       </svg>
     </a>
   );
