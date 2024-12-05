@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #141a19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  opacity: 0.1;
+}
