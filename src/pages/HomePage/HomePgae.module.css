@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100%;
   background-color: rgb(18, 11, 2);
-  background-image: url('../../assets/MainPage/home.jpg');
+  background-image: url('/MainPage/home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
