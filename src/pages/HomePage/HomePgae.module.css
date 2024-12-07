@@ -21,6 +21,7 @@
   line-height: 140%;
   text-align: center;
   position: relative;
+  cursor: default;
 }
 
 .heading {

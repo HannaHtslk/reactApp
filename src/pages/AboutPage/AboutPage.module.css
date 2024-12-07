@@ -5,7 +5,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 img {
   opacity: 0.1;
+}
+
+.wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 170px 205px;
+}
+
+.heading {
+  display: block;
+  font-family: 'Jomolhari', sans-serif;
+  color: var(--primary-text-color);
+  font-size: 64px;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 265px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 496px;
+  height: 176px;
+  gap: 32px;
+}
+
+.txt {
+  color: var(--primary-text-color);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
 }
