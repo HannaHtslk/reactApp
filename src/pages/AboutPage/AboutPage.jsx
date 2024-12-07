@@ -6,7 +6,7 @@ const AboutPage = () => {
     <div className={s.container}>
       <img
         height="573px"
-        src="../../../src/assets/AboutUs/about.png"
+        src="../src/assets/AboutUs/about.png"
         alt="about_us"
       />
     </div>
